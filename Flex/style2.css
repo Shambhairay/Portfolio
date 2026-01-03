@@ -1,39 +1,17 @@
-/* BASIC RESET */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* BODY */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #050404;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #d63384, #0d6efd);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-/* HEADER */
-.header {
-    text-align: center;
-    padding: 40px 20px;
-    background-color: #2653e7;
-    color: white;
-}
-
-/* FLEX CONTAINER */
-.services {
-    display: flex;                 /* FLEX START */
-    justify-content: center;       /* center horizontally */
-    align-items: stretch;
-    gap: 20px;
-    padding: 40px 20px;
-    flex-wrap: wrap;               /* responsive */
-}
-
-/* FLEX ITEMS */
-.service-card {
-    background-color: white;
-    width: 280px;
-    padding: 20px;
+.login-card {
+    width: 100%;
+    max-width: 380px;
     border-radius: 10px;
-    text-align: center;
-}  
+}
+
+.social-btn {
+    width: 100%;
+}

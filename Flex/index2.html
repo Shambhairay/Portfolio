@@ -1,34 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Services | Flexbox Project</title>
+    <meta charset="UTF-8">
+    <title>Login | Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style2.css">
 </head>
+
 <body>
 
-    <!-- HEADER -->
-    <div class="header">
-        <h1>Our Services</h1>
-        <p>We provide simple and clean web solutions</p>
-    </div>  
+    <div class="card login-card shadow p-4">
+        <h3 class="text-center mb-4">LOGIN</h3>
 
-    <!-- SERVICES SECTION -->
-    <div class="services">
-        <div class="service-card">
-            <h2>Web Design</h2>
-            <p>Clean and user-friendly website designs.</p>
+        <!-- Email -->
+        <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Email">
         </div>
 
-        <div class="service-card">
-            <h2>Frontend Development</h2>
-            <p>HTML, CSS and basic JavaScript work.</p>
+        <!-- Password -->
+        <div class="mb-3">
+            <input type="password" class="form-control" placeholder="Password">
         </div>
 
-        <div class="service-card">
-            <h2>Responsive UI</h2>
-            <p>Websites that work on all screen sizes.</p>
+        <!-- Remember me -->
+        <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="remember">
+            <label class="form-check-label" for="remember">
+                Remember me
+            </label>
         </div>
+
+        <!-- Login button -->
+        <button type="button" class="btn btn-danger w-100 mb-3">
+            LOGIN
+        </button>
+
+        <!-- Divider -->
+        <p class="text-center text-muted">Or login with</p>
+
+        <!-- Social buttons -->
+        <div class="row g-2 mb-3">
+            <div class="col-6">
+                <button type="button" class="btn btn-outline-primary social-btn">
+                    Facebook
+                </button>
+            </div>
+            <div class="col-6">
+                <button type="button" class="btn btn-outline-danger social-btn">
+                    Google
+                </button>
+            </div>
+        </div>
+
+        <!-- Signup -->
+        <p class="text-center mb-0">
+            Not a member?
+            <a href="#" class="text-decoration-none">Sign up now</a>
+        </p>
     </div>
 
+    <!-- JavaScript -->
+    <script src="index.js"></script>
 </body>
 </html>

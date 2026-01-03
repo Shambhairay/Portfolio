@@ -8,11 +8,10 @@
 /* BODY */
 body {
     font-family: Arial, sans-serif;
-
     background-image: url("depositphotos_65828845-stock-photo-portfolio-written-on-notebook.jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
 
     min-height: 100vh;
     display: flex;
@@ -39,7 +38,7 @@ body {
 
 /* MAIN SECTION (CARD STYLE) */
 .section {
-    background-color: rgba(241, 247, 244, 0.95);
+    background-color: rgba(245, 247, 246, 0.95);
 
     width: 90%;
     max-width: 650px;
